@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Francisco Zapata">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/styles.css" as="style">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>FrontEnd Store - Producto</title>
+</head>
+
+<body>
+    <header class="header" a>
+        <a href="index.html">
+            <img class="header__logo" src="./img/logo.png" alt="Logotipo FrontEnd Store">
+        </a>
+    </header>
+
+    <nav class="navegation">
+        <a class="navegation__link" href="./index.html">Tienda</a>
+        <a class="navegation__link" href="./nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="container">
+        <h1>React JS</h1>
+
+        <main class="product">
+            <div class="product__image">
+                <img src="./img/3.jpg" alt="React.js T-Shirt">
+            </div>
+            <div class="product__info">
+                <p>Sit architecto repellat ipsum adipisci provident hic perferendis aspernatur consequatur numquam iure temporibus veritatis animi libero saepe autem earum, nobis non molestias quidem, esse sapiente unde ratione atque porro.</p>
+                <form class="product__form">
+                    <select class="product__form--size">
+                        <option disabled selected>-- Seleccionar talla --</option>
+                        <option value="small">Pequeña</option>
+                        <option value="middle">Mediana</option>
+                        <option value="large">Grande</option>
+                    </select>
+                    <input class="product__form--quant" type="number" min="1">
+                    <input class="product__form--submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </main>
+
+    </main>
+
+</body>
+
+<footer class="footer">
+    <p class="footer__text">
+        All rights reserved. &copy; 2021, FrontEnd Store
+    </p>
+</footer>
+
+</html>
